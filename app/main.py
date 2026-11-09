@@ -3,7 +3,7 @@ from psycopg import errors
 import sys
 
 # Ajuste com a porta e senha do seu PostgreSQL local se for diferente
-DB_URI = "postgresql://postgres:postgres@localhost:5432/postgres"
+DB_URI = "postgresql://app_reservas:SenhaSegura123!@localhost:5432/postgres"
 
 def get_connection():
     try:
